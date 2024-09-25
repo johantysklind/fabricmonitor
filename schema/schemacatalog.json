@@ -1,0 +1,226 @@
+{
+    "workspaces": [
+        {
+            "id": "87e8792e-65ae-4220-ab61-829b492d01cf",
+            "name": "Southridge",
+            "description": "jada jada",
+            "type": "Workspace",
+            "state": "Active",
+            "isOnDedicatedCapacity": false,
+            "capacityId": "asdf",
+            "reports": [
+                {
+                    "reportType": "PowerBIReport",
+                    "id": "10c37549-d169-499d-82e1-10a48cd7fd70",
+                    "name": "SalesReport",
+                    "datasetId": "0e64058e-2d1d-4ced-8948-34183dddbdd4",
+                    "createdDateTime": "2022-04-29T11:49:13.34",
+                    "modifiedDateTime": "2022-04-29T11:49:13.34",
+                    "modifiedBy": "tysklind@sooners0001.onmicrosoft.com",
+                    "createdBy": "tysklind@sooners0001.onmicrosoft.com",
+                    "modifiedById": "25536191-08ed-4438-ade8-79146e0313ce",
+                    "createdById": "25536191-08ed-4438-ade8-79146e0313ce",
+                    "sensitivityLabel": "supersecret",
+                    "endorsementDetails": {
+                        "endorsement": "Promoted",
+                        "certifiedBy":"Johan"
+                    },
+                    "users": [
+                        {
+                            "reportUserAccessRight": "Owner",
+                            "emailAddress": "tysklind@sooners0001.onmicrosoft.com",
+                            "displayName": "Johan Tysklind",
+                            "identifier": "tysklind@sooners0001.onmicrosoft.com",
+                            "graphId": "25536191-08ed-4438-ade8-79146e0313ce",
+                            "principalType": "User",
+                            "userType": "Member"
+                        }
+                    ]
+                },
+                {
+                    "reportType": "PowerBIReport",
+                    "id": "408fca20-4e8c-41b2-9db4-047f50588b89",
+                    "name": "[App] SalesReport",
+                    "datasetId": "0e64058e-2d1d-4ced-8948-34183dddbdd4",
+                    "appId": "ec56bd43-08d6-4e7f-b87d-d6c1700f716d",
+                    "createdDateTime": "2022-05-04T07:51:21.84",
+                    "modifiedDateTime": "2022-05-04T07:51:21.84",
+                    "modifiedBy": "tysklind@sooners0001.onmicrosoft.com",
+                    "createdBy": "tysklind@sooners0001.onmicrosoft.com",
+                    "modifiedById": "25536191-08ed-4438-ade8-79146e0313ce",
+                    "createdById": "25536191-08ed-4438-ade8-79146e0313ce",
+                    "users": [
+                        {
+                            "reportUserAccessRight": "ReadCopy",
+                            "emailAddress": "tysklind@sooners0001.onmicrosoft.com",
+                            "displayName": "Johan Tysklind",
+                            "identifier": "tysklind@sooners0001.onmicrosoft.com",
+                            "graphId": "25536191-08ed-4438-ade8-79146e0313ce",
+                            "principalType": "User",
+                            "userType": "Member"
+                        }
+                    ]
+                }
+            ],
+            "dashboards": [
+                {
+                    "id": "318cd45d-2acd-47bb-b042-c11110881c02",
+                    "displayName": "SalesDashboard",
+                    "isReadOnly": false,
+                    "testing": "aaa",
+                    "tiles": [
+                        {
+                            "id": "cc0a0c5e-b7ca-4663-b666-59c0c678dd85",
+                            "title": "TotalCost",
+                            "subTitle": "by Year",
+                            "reportId": "10c37549-d169-499d-82e1-10a48cd7fd70",
+                            "datasetId": "0e64058e-2d1d-4ced-8948-34183dddbdd4"
+                        }
+                    ],
+                    "users": [
+                        {
+                            "dashboardUserAccessRight": "Owner",
+                            "emailAddress": "tysklind@sooners0001.onmicrosoft.com",
+                            "displayName": "Johan Tysklind",
+                            "identifier": "tysklind@sooners0001.onmicrosoft.com",
+                            "graphId": "25536191-08ed-4438-ade8-79146e0313ce",
+                            "principalType": "User",
+                            "userType": "Member"
+                        }
+                    ]
+                },
+                {
+                    "id": "2f806251-ccd0-4b15-9f37-849c70d7a029",
+                    "displayName": "[App] SalesDashboard",
+                    "isReadOnly": false,
+                    "tiles": [
+                        {
+                            "id": "26274143-2270-4a50-bc10-8d75c6119c4d",
+                            "title": "TotalCost",
+                            "subTitle": "by Year",
+                            "reportId": "408fca20-4e8c-41b2-9db4-047f50588b89",
+                            "datasetId": "0e64058e-2d1d-4ced-8948-34183dddbdd4"
+                        }
+                    ],
+                    "appId": "ec56bd43-08d6-4e7f-b87d-d6c1700f716d",
+                    "users": [
+                        {
+                            "dashboardUserAccessRight": "ReadCopy",
+                            "emailAddress": "tysklind@sooners0001.onmicrosoft.com",
+                            "displayName": "Johan Tysklind",
+                            "identifier": "tysklind@sooners0001.onmicrosoft.com",
+                            "graphId": "25536191-08ed-4438-ade8-79146e0313ce",
+                            "principalType": "User",
+                            "userType": "Member"
+                        }
+                    ]
+                }
+            ],
+            "datasets": [
+                {
+                    "id": "0e64058e-2d1d-4ced-8948-34183dddbdd4",
+                    "name": "SalesReport",
+                    "tables": [],
+                    "configuredBy": "tysklind@sooners0001.onmicrosoft.com",
+                    "configuredById": "25536191-08ed-4438-ade8-79146e0313ce",
+                    "isEffectiveIdentityRequired": false,
+                    "isEffectiveIdentityRolesRequired": false,
+                    "targetStorageMode": "Abf",
+                    "createdDate": "2022-04-29T11:49:12.52",
+                    "contentProviderType": "PbixInImportMode",
+                    "description": "",
+                    "schemaMayNotBeUpToDate": false, 
+                    "sensitivityLabel": "SuperSecret",
+                    "endorsementDetails": {
+                        "endorsement": "Promoted",
+                        "certifiedBy": "Johan"
+                    },
+                    "datasourceUsages": [
+                        {
+                            "datasourceInstanceId": "38ec8cba-6faa-4d9a-8150-749defb23f82"
+                        }
+                    ],
+                    "users": [
+                        {
+                            "datasetUserAccessRight": "ReadWriteReshareExplore",
+                            "emailAddress": "tysklind@sooners0001.onmicrosoft.com",
+                            "displayName": "Johan Tysklind",
+                            "identifier": "tysklind@sooners0001.onmicrosoft.com",
+                            "graphId": "25536191-08ed-4438-ade8-79146e0313ce",
+                            "principalType": "User",
+                            "userType": "Member"
+                        }
+                    ]
+                }
+            ],
+            "dataflows": [
+                {
+                    "objectId": "594b20bf-9cef-4f49-988c-110f291b92dd",
+                    "name": "Dataflowtest",
+                    "description": "",
+                    "configuredBy": "tysklind@sooners0001.onmicrosoft.com",
+                    "endorsementDetails": {
+                        "endorsement": "Promoted",
+                        "certifiedBy":"Johan"
+                    },
+                    "modifiedBy": "tysklind@sooners0001.onmicrosoft.com",
+                    "modifiedDateTime": "2022-09-30T07:18:04.707Z",
+                    "datasourceUsages": [
+                        {
+                            "datasourceInstanceId": "269ae597-462e-4101-8202-a472443b5a65"
+                        }
+                    ],
+                    "users": [
+                        {
+                            "dataflowUserAccessRight": "Owner",
+                            "emailAddress": "tysklind@sooners0001.onmicrosoft.com",
+                            "displayName": "Johan Tysklind",
+                            "identifier": "tysklind@sooners0001.onmicrosoft.com",
+                            "graphId": "25536191-08ed-4438-ade8-79146e0313ce",
+                            "principalType": "User",
+                            "userType": "Member"
+                        }
+                    ]
+                }
+            ],
+            "datamarts": [],
+            "users": [
+                {
+                    "groupUserAccessRight": "Admin",
+                    "emailAddress": "tysklind@sooners0001.onmicrosoft.com",
+                    "displayName": "Johan Tysklind",
+                    "identifier": "tysklind@sooners0001.onmicrosoft.com",
+                    "graphId": "25536191-08ed-4438-ade8-79146e0313ce",
+                    "principalType": "User",
+                    "userType": "Member"
+                }
+            ]
+        }
+    ],
+    "datasourceInstances": [
+        {
+            "datasourceType": "Web",
+            "connectionDetails": {
+                "url": "https://sooners0001-my.sharepoint.com/personal/tysklind_sooners0001_onmicrosoft_com",
+                "sharePointSiteUrl":"sas",
+                "account":"sas",
+                "domain":"sas",
+                "server":"sas",
+                "database":"sas",
+                "path":"sas",
+                "connectionString":"sas"
+            },
+            "datasourceId": "269ae597-462e-4101-8202-a472443b5a65",
+            "gatewayId": "9d9eafb9-efdf-4b3e-b5c5-4031403ecc95"
+        },
+        {
+            "datasourceType": "AzureDataLakeStorage",
+            "connectionDetails": {
+                "url": "https://adlssynapsedemo0001.dfs.core.windows.net/datalake/curated/sales/Salesorder.parquet"
+            },
+            "datasourceId": "38ec8cba-6faa-4d9a-8150-749defb23f82",
+            "gatewayId": "9d9eafb9-efdf-4b3e-b5c5-4031403ecc95"
+        }
+    ],
+    "scanCreatedDateTime": "2022-09-30T11:27:47.7916307Z"
+}
